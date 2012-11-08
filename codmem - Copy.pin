@@ -1,0 +1,240 @@
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "codmem" ASSIGNED TO AN EPF10K20RC208-3
+TCK                              : 1
+CONF_DONE                        : 2
+nCEO                             : 3
+TDO                              : 4
+VCCIO                            : 5
+VCCINT                           : 6
+out5                             : 7
+d5                               : 8
+e5                               : 9
+a5                               : 10
+o2                               : 11
+i0                               : 12
+RESERVED                         : 13
+f0                               : 14
+out2                             : 15
+c6                               : 16
+out6                             : 17
+b6                               : 18
+d6                               : 19
+GNDIO                            : 20
+GNDINT                           : 21
+VCCIO                            : 22
+VCCINT                           : 23
+b5                               : 24
+RESERVED                         : 25
+p0                               : 26
+j0                               : 27
+m0                               : 28
+o7                               : 29
+RESERVED                         : 30
+j6                               : 31
+GNDIO                            : 32
+GNDINT                           : 33
+VCCIO                            : 34
+VCCINT                           : 35
+j3                               : 36
+m5                               : 37
+o6                               : 38
+b3                               : 39
+l0                               : 40
+m2                               : 41
+VCCIO                            : 42
+VCCINT                           : 43
+p1                               : 44
+m1                               : 45
+out0                             : 46
+out1                             : 47
+GNDIO                            : 48
+GNDINT                           : 49
+TMS                              : 50
+TRST                             : 51
+nSTATUS                          : 52
+c1                               : 53
+g2                               : 54
+a2                               : 55
+g7                               : 56
+o4                               : 57
+b1                               : 58
+GNDIO                            : 59
+g1                               : 60
+m4                               : 61
+h2                               : 62
+o1                               : 63
+d0                               : 64
+h0                               : 65
+VCCIO                            : 66
+e0                               : 67
+f2                               : 68
+j5                               : 69
+b7                               : 70
+l6                               : 71
+GNDIO                            : 72
+o0                               : 73
+g6                               : 74
+j7                               : 75
+VCCINT                           : 76
+VCCINT                           : 77
+end1                             : 78
+c0                               : 79
+end0                             : 80
+GNDINT                           : 81
+GNDINT                           : 82
+c7                               : 83
+VCCIO                            : 84
+f3                               : 85
+p4                               : 86
+h7                               : 87
+d7                               : 88
+i3                               : 89
+a4                               : 90
+GNDIO                            : 91
+a3                               : 92
+n0                               : 93
+q2                               : 94
+c3                               : 95
+n7                               : 96
+i7                               : 97
+VCCIO                            : 98
+i4                               : 99
+d3                               : 100
+f7                               : 101
+n2                               : 102
+p3                               : 103
+d4                               : 104
+nCONFIG                          : 105
+VCCINT                           : 106
+MSEL1                            : 107
+MSEL0                            : 108
+VCCINT                           : 109
+VCCIO                            : 110
+f1                               : 111
+d1                               : 112
+e1                               : 113
+i1                               : 114
+a1                               : 115
+h1                               : 116
+VCCINT                           : 117
+VCCIO                            : 118
+g0                               : 119
+m7                               : 120
+o5                               : 121
+m3                               : 122
+GNDINT                           : 123
+GNDIO                            : 124
+l7                               : 125
+q7                               : 126
+out3                             : 127
+RESERVED                         : 128
+GNDINT                           : 129
+GNDIO                            : 130
+p6                               : 131
+a6                               : 132
+i6                               : 133
+h6                               : 134
+f6                               : 135
+e6                               : 136
+VCCINT                           : 137
+VCCIO                            : 138
+out4                             : 139
+h4                               : 140
+e7                               : 141
+out7                             : 142
+RESERVED                         : 143
+RESERVED                         : 144
+VCCINT                           : 145
+VCCIO                            : 146
+RESERVED                         : 147
+c5                               : 148
+p5                               : 149
+f5                               : 150
+GNDINT                           : 151
+GNDIO                            : 152
+TDI                              : 153
+nCE                              : 154
+DCLK                             : 155
+DATA0                            : 156
+h5                               : 157
+g3                               : 158
+n3                               : 159
+q6                               : 160
+h3                               : 161
+q5                               : 162
+n5                               : 163
+c4                               : 164
+VCCIO                            : 165
+q4                               : 166
+a7                               : 167
+q1                               : 168
+e3                               : 169
+n1                               : 170
+GNDIO                            : 171
+p7                               : 172
+q3                               : 173
+e4                               : 174
+n4                               : 175
+n6                               : 176
+f4                               : 177
+VCCIO                            : 178
+q0                               : 179
+l2                               : 180
+VCCINT                           : 181
+end3                             : 182
+a0                               : 183
+end2                             : 184
+GNDINT                           : 185
+j4                               : 186
+l5                               : 187
+GNDIO                            : 188
+b4                               : 189
+d2                               : 190
+c2                               : 191
+i2                               : 192
+o3                               : 193
+VCCIO                            : 194
+b0                               : 195
+j2                               : 196
+e2                               : 197
+p2                               : 198
+l1                               : 199
+j1                               : 200
+GNDIO                            : 201
+g5                               : 202
+m6                               : 203
+b2                               : 204
+l3                               : 205
+l4                               : 206
+i5                               : 207
+g4                               : 208
